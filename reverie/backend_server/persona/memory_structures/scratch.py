@@ -327,7 +327,7 @@ class Scratch:
     OUTPUT 
       an integer value for the current index of f_daily_schedule.
     """
-    # We first calculate teh number of minutes elapsed today. 
+    # We first calculate the number of minutes elapsed today.
     today_min_elapsed = 0
     today_min_elapsed += self.curr_time.hour * 60
     today_min_elapsed += self.curr_time.minute
@@ -363,7 +363,7 @@ class Scratch:
     OUTPUT 
       an integer value for the current index of f_daily_schedule.
     """
-    # We first calculate teh number of minutes elapsed today. 
+    # We first calculate the number of minutes elapsed today.
     today_min_elapsed = 0
     today_min_elapsed += self.curr_time.hour * 60
     today_min_elapsed += self.curr_time.minute
