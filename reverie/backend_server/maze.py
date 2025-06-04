@@ -333,7 +333,7 @@ class Maze:
         e.g., ('double studio:double studio:bedroom 2:bed', None,
                 None)
       tile: The tile coordinate of our interest in (x, y) form.
-    OUPUT: 
+    OUTPUT:
       None
     """
     self.tiles[tile[1]][tile[0]]["events"].add(curr_event)
@@ -348,7 +348,7 @@ class Maze:
         e.g., ('double studio:double studio:bedroom 2:bed', None,
                 None)
       tile: The tile coordinate of our interest in (x, y) form.
-    OUPUT: 
+    OUTPUT:
       None
     """
     curr_tile_ev_cp = self.tiles[tile[1]][tile[0]]["events"].copy()
@@ -373,7 +373,7 @@ class Maze:
     INPUT: 
       subject: "Isabella Rodriguez"
       tile: The tile coordinate of our interest in (x, y) form.
-    OUPUT: 
+    OUTPUT:
       None
     """
     curr_tile_ev_cp = self.tiles[tile[1]][tile[0]]["events"].copy()
