@@ -470,8 +470,9 @@ def run_gpt_prompt_task_decomp(persona,
     ftime_sum += fi_duration
   
   # print ("for debugging... line 365", fin_output)
-  fin_output[-1][1] += (duration - ftime_sum)
-  output = fin_output 
+  if fin_output:
+    fin_output[-1][1] += (duration - ftime_sum)
+  output = fin_output
 
 
 
